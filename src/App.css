@@ -1,0 +1,11 @@
+h1 {
+  justify-self: center;
+}
+
+.assignmentTitle {
+  font-size: 1em;
+  text-decoration: underline;
+  text-align: center;
+  color: #333;
+  justify-self: left;
+}
