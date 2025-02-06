@@ -9,3 +9,31 @@ h1 {
   color: #333;
   justify-self: left;
 }
+
+.learnerRepresentation {
+  display: flex;
+  width: 90%;
+  margin: 5vw;
+  justify-content: space-between;
+  justify-self: center;
+}
+
+.learnerContainer {
+  background-color: rgb(201, 183, 149);
+  border: orange solid 3px;
+  border-radius: 10px;
+  box-shadow: gray 5px 5px 5px;
+  width: 30%;
+  padding: 1vw;
+  margin: 1vh;
+}
+
+.learnerContainer:hover {
+  border: rgb(3, 108, 82) solid 3px;
+  box-shadow: gray 0px 0px 15px;
+}
+
+.studentName {
+  color: rgb(103, 14, 14);
+  text-decoration: underline;
+}

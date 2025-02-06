@@ -5,8 +5,9 @@ import "../styles/Learner.css"
 export default function Score({ scores }) {
     return (
         <>
+        
             <p>
-                date: {scores.date} | score: {scores.score}
+                Date: {scores.date} | Score: {scores.score}
             </p>
 
         </>

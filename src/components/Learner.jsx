@@ -10,7 +10,7 @@ export default function Learner({ learner }) {
         <>
 
             <div className="learnerContainer">
-                <h2>{learner.name}</h2>
+                <h2 className="studentName">{learner.name}</h2>
                 <h4>{learner.bio}</h4>
                 <h3>Scores:</h3>
                 {learner.scores.map((score, index) => (
