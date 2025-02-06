@@ -3,3 +3,22 @@ h1 {
     justify-self: left;
     margin-top: 15vh;
 }
+
+p {
+    color: darkgreen;
+    justify-self: left;
+    margin-top: 5vh;
+}
+
+ul {
+    color: darkred;
+    justify-self: left;
+    margin-top: 5vh;
+    display: inline-block;
+}
+
+h5 {
+    color: darkblue;
+    justify-self: left;
+    margin-top: 5vh;
+}
