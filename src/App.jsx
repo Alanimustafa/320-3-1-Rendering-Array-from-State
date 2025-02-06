@@ -9,9 +9,16 @@ import Learner from './components/Learner'
 
 
 function App() {
+  const [learners, setLearner] = useState(learnerArray) // The initial state of the learners array is set to the learnerArray from the data.js file
+  console.log("Learners Array ", learners);
   return (
     <>
-      <Learner/>
+      <div className="studentScore">
+        <h1>Student Score</h1>
+        {learners.map((learner, index) => (
+          <Learner key={index} learner={learner} />
+        ))}
+      </div>
     </>
   )
 }
